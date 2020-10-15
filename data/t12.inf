@@ -1,0 +1,13 @@
+[t12]
+FileName1=t12.json
+URL1=https://perr.hola.org/client_cgi/perr?id=be_connectivity_check_success&ext_ver=1.173.271&product=cws&browser=chrome&uuid=138453b5a354a204391471c69907a8b4
+Total=2
+RequestHeaderFile=t12_RequestHeader.txt
+RequestBodyFile=t12_RequestBody.txt
+ResponseHeaderFile=t12_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_12.xml
+FileName2=t12_Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIqCRMz6oN-Ndw8EgkNwhiE_xIAGgASCQ2cj3-xEgAaABIJDUcfTBgSABoA.txt
+URL2=https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRIqCRMz6oN-Ndw8EgkNwhiE_xIAGgASCQ2cj3-xEgAaABIJDUcfTBgSABoA?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

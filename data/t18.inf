@@ -1,0 +1,13 @@
+[t18]
+FileName1=t18.html
+URL1=http://test.youplace.net/question/2
+Total=2
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t18_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_18.xml
+FileName2=t18_Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI1CY_iDAs2oUP_EgkN--iuRRIAGgASCQ1t8QmDEgAaABIJDe0OYwoSABoAEgkNB6sIxxIAGgA=.txt
+URL2=https://content-autofill.googleapis.com/v1/pages/Chc2LjEuMTcxNS4xNDQyL2VuIChHR0xMKRI1CY_iDAs2oUP_EgkN--iuRRIAGgASCQ1t8QmDEgAaABIJDe0OYwoSABoAEgkNB6sIxxIAGgA=?alt=proto
+[ProtocolInfo]
+ProtocolId=QTWeb

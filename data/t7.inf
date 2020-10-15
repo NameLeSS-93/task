@@ -1,0 +1,11 @@
+[t7]
+FileName1=t7_crx.xml
+URL1=https://clients2.google.com/service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=85.0.4183.121&lang=ru&acceptformat=crx3&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc&x=id%3Diiokoipacignlilkidmpbfcfdopijpma%26v%3D0.0.0.0%26installedby%3Dinternal%26uc&x=id%3Dhanjiajgnonaobdlklncdjdmpbomlhoa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc&x=id%3Ddeoncbedngjdpfgjbpinknoaefepdhgf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc
+Total=1
+ContentType=text/xml
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

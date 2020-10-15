@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\nikit\Documents\VuGen\Scripts\task_edited
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\nikit\documents\vugen\scripts\task_edited\\logfile.log
+c:\users\nikit\documents\vugen\scripts\task_edited\\combined_task_edited.c
+c:\users\nikit\documents\vugen\scripts\task_edited\\pre_cci.c

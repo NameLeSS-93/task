@@ -1,0 +1,15 @@
+POST /client_cgi/perr?id=be_connectivity_check_success&ext_ver=1.173.271&product=cws&browser=chrome&uuid=138453b5a354a204391471c69907a8b4 HTTP/1.1
+Host: perr.hola.org
+Connection: keep-alive
+Content-Length: 910
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: chrome-extension://gkojfkhlekighikafcpjkiklfbnlmeio
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: _ga=GA1.2.1076629723.1551034587; uuid=138453b5a354a204391471c69907a8b4; ext_ver=1.173.271
+

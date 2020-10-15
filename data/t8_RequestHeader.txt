@@ -1,0 +1,14 @@
+POST /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard HTTP/1.1
+Host: accounts.google.com
+Connection: keep-alive
+Content-Length: 1
+Origin: https://www.google.com
+Content-Type: application/x-www-form-urlencoded
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: ACCOUNT_CHOOSER=AFx_qI5I2Ma66ISAVOQyhjcRvt-ub81EA7G_vf9XHgQw3lQrysUP5rxCkkwM-4hGU0pk15XWqyHOIlTnBnKJq84OxgFnzF09R8Pk1kQZLONDrgZ4mg6yJ1pG0hMRHcO-d9xzuCM1xsuB2d25huj1D8OKQx8jOrXBB9T41vxWGmN9val5eQYBJvPQBD-TeoZH5eHFa1Hp7ak8xRGvcEPHGA_1WBevbcDqfU03YUi7PfSa-KQ8BxlErRZrmyOgAr6onBIxdMrUPSv07BPpmsT3czL3bBWSfCEVcA; SMSV=ADHTe-AquBM61uCi4SfHB16tqVRGX495dNdETmLDJqSFdFFQ3E7A87GPRk06nw0Y0y-axyeGf5Lizg9Cgcu_GHOFpEBYoaTpqtnGzXza7pUzLcpgmWm29sptPMzg-pxPhdgWLlyTmCRSqj1bmXGCNs-g3rJUUqn_8w; ANID=AHWqTUnKnZk60toJ9SeqiSUzEL-dEpnCQ43mF6xpY9XzahH3y-gZxslY90McXMDV; SEARCH_SAMESITE=CgQIxpAB; SID=2Qdht7V_6KJlDwy_P1ugDk6k4KvwCA1tEIbKkmdbABMeGp9zky5T4G-8KHnep6thV4td7g.; __Secure-3PSID=2Qdht7V_6KJlDwy_P1ugDk6k4KvwCA1tEIbKkmdbABMeGp9zuBjMBJuXXPM2UU8vVEYOYQ.; HSID=AbdOEd5fCli7jE7uf; SSID=AyHAedD1Q3YuvlgeY; APISID=Mra3wzekJ83jNh7v/AH2dGtbKHJMJ1FcdV; SAPISID=FVFikjhWscviSASk/APiLbsdBbmiyBkLuH; __Secure-3PAPISID=FVFikjhWscviSASk/APiLbsdBbmiyBkLuH; NID=204=ZJYB_Ua8AKG6p1Y8M1d8RcmKCl-KtBaZzSdLJ3yghlVmzniN8lJV1d-4TChSMmI2oehyWiDZXU2oQzlgoFjcFEuTpiLEV7lD6sRFTt7UsAs0OmmtrmtZ6NbyvfGuIW3YEUyeskAT7-T-j6zYSrXvhVYISYGBz6vVcCrAJmK3hhxZZxffnhiq_hm16Itiqfbpg13_UWV06-ul1eWJzXT6dpImKsY1hfhU8hwtqyhLwhoEs4D77KgUXeubqwmYoiguhv6_fZOEtIOZfWUG8ocWhRHYvXune-2i; __Host-GAPS=1:qHZh1BeFBO4QOUVU8c2Q9IQVjRzqbJNTNXKLHxN3BlND0-rhOqqnkJTWL9T5xuuFlAQbaMfZjmHD7JPcZ4CDA6iA7_0_XA:FkzrwdzkMkCwFvJi; LSID=doritos|lso|o.calendar.google.com|o.groups.google.com|o.mail.google.com|o.myaccount.google.com|o.smartlock.google.com|s.RU|s.blogger|s.youtube|wise:2Qdht2os4T-aiZW3CoaDqoGAlIIPjZbRTUV1UHLkr9tJa-CvE0-WQgTwW_iq1UEoeZ8xaw.; __Host-3PLSID=doritos|lso|o.calendar.google.com|o.groups.google.com|o.mail.google.com|o.myaccount.google.com|o.smartlock.google.com|s.RU|s.blogger|s.youtube|wise:2Qdht2os4T-aiZW3CoaDqoGAlIIPjZbRTUV1UHLkr9tJa-CvAMK-ocagGEwdbfHRZxtnDw.; 1P_JAR=2020-10-12-19; SIDCC=AJi4QfFQT-jBhVcHzTrggBhIG3_A6Wm5l_tM52Z-CY7tor8ojWKUZbZciran9HV_74vAyAQChO8m; __Secure-3PSIDCC=AJi4QfGsLn22odCrFzLzp3_We7vVGAYdmrLmJROIRHpgBn92d6VuQpqikah_HZY4y9pGKqTVXQ
+

@@ -1,0 +1,13 @@
+GET /service/update2/crx?os=win&arch=x64&os_arch=x86_64&nacl_arch=x86-64&prod=chromecrx&prodchannel=&prodversion=85.0.4183.121&lang=ru&acceptformat=crx3&x=id%3Dmgndgikekgjfcpckkfioiadnlibdjbkf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc&x=id%3Diiokoipacignlilkidmpbfcfdopijpma%26v%3D0.0.0.0%26installedby%3Dinternal%26uc&x=id%3Dhanjiajgnonaobdlklncdjdmpbomlhoa%26v%3D0.0.0.0%26installedby%3Dinternal%26uc&x=id%3Ddeoncbedngjdpfgjbpinknoaefepdhgf%26v%3D0.0.0.0%26installedby%3Dinternal%26uc HTTP/1.1
+Host: clients2.google.com
+Connection: keep-alive
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-AppId: deoncbedngjdpfgjbpinknoaefepdhgf,hanjiajgnonaobdlklncdjdmpbomlhoa,iiokoipacignlilkidmpbfcfdopijpma,mgndgikekgjfcpckkfioiadnlibdjbkf
+X-Goog-Update-Updater: chromecrx-85.0.4183.121
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+

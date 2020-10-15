@@ -1,0 +1,11 @@
+GET /settings/do_ad_settings_allow_floc_poc HTTP/1.1
+Host: adservice.google.com
+Connection: keep-alive
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: ANID=AHWqTUnKnZk60toJ9SeqiSUzEL-dEpnCQ43mF6xpY9XzahH3y-gZxslY90McXMDV; SEARCH_SAMESITE=CgQIxpAB; SID=2Qdht7V_6KJlDwy_P1ugDk6k4KvwCA1tEIbKkmdbABMeGp9zky5T4G-8KHnep6thV4td7g.; __Secure-3PSID=2Qdht7V_6KJlDwy_P1ugDk6k4KvwCA1tEIbKkmdbABMeGp9zuBjMBJuXXPM2UU8vVEYOYQ.; HSID=AbdOEd5fCli7jE7uf; SSID=AyHAedD1Q3YuvlgeY; APISID=Mra3wzekJ83jNh7v/AH2dGtbKHJMJ1FcdV; SAPISID=FVFikjhWscviSASk/APiLbsdBbmiyBkLuH; __Secure-3PAPISID=FVFikjhWscviSASk/APiLbsdBbmiyBkLuH; NID=204=ZJYB_Ua8AKG6p1Y8M1d8RcmKCl-KtBaZzSdLJ3yghlVmzniN8lJV1d-4TChSMmI2oehyWiDZXU2oQzlgoFjcFEuTpiLEV7lD6sRFTt7UsAs0OmmtrmtZ6NbyvfGuIW3YEUyeskAT7-T-j6zYSrXvhVYISYGBz6vVcCrAJmK3hhxZZxffnhiq_hm16Itiqfbpg13_UWV06-ul1eWJzXT6dpImKsY1hfhU8hwtqyhLwhoEs4D77KgUXeubqwmYoiguhv6_fZOEtIOZfWUG8ocWhRHYvXune-2i; 1P_JAR=2020-10-12-19; SIDCC=AJi4QfFQT-jBhVcHzTrggBhIG3_A6Wm5l_tM52Z-CY7tor8ojWKUZbZciran9HV_74vAyAQChO8m; __Secure-3PSIDCC=AJi4QfGsLn22odCrFzLzp3_We7vVGAYdmrLmJROIRHpgBn92d6VuQpqikah_HZY4y9pGKqTVXQ
+

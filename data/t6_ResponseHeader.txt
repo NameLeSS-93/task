@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+P3P: policyref="https://www.googleadservices.com/pagead/p3p.xml", CP="NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC"
+Timing-Allow-Origin: *
+Content-Type: application/json; charset=UTF-8
+X-Content-Type-Options: nosniff
+Content-Disposition: attachment; filename="f.txt"
+Content-Encoding: gzip
+Date: Mon, 12 Oct 2020 21:36:33 GMT
+Server: cafe
+Cache-Control: private
+X-XSS-Protection: 0
+Set-Cookie: SIDCC=AJi4QfH4aGwgLUStO5uRfSGStA5iN6QFeH-Ep7Qgq58a2VbKBx-BTQaUnYC3YzZy4WV_wON-iXL0; expires=Tue, 12-Oct-2021 21:36:33 GMT; path=/; domain=.google.com; priority=high
+Set-Cookie: __Secure-3PSIDCC=AJi4QfF-yoCJZ6wZ1s7GKmnle6heN8BEI40kBxKZGbW1jQmYVnBWh0Xi3mamvxA5PMpE4yrxOw; expires=Tue, 12-Oct-2021 21:36:33 GMT; path=/; domain=.google.com; Secure; HttpOnly; priority=high; SameSite=none
+Alt-Svc: h3-Q050="googleads.g.doubleclick.net:443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-29="googleads.g.doubleclick.net:443"; ma=2592000,h3-29=":443"; ma=2592000,h3-27="googleads.g.doubleclick.net:443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T051="googleads.g.doubleclick.net:443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050="googleads.g.doubleclick.net:443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046="googleads.g.doubleclick.net:443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043="googleads.g.doubleclick.net:443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic="googleads.g.doubleclick.net:443"; ma=2592000; v="46,43",quic=":443"; ma=2592000; v="46,43"
+Expires: Mon, 12 Oct 2020 21:36:33 GMT
+Transfer-Encoding: chunked
+

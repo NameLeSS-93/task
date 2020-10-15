@@ -1,0 +1,13 @@
+[t10]
+FileName1=t10.json
+URL1=https://update.googleapis.com/service/update2/json?cup2key=10:3452581364&cup2hreq=3ebd4a9f97c2a4710498287d4041984bab736f9784512616108da6bfe905ac88
+Total=2
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=t10_RequestBody.txt
+ResponseHeaderFile=t10_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_10.xml
+FileName2=t10___utm.gif
+URL2=https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=344962803&utmhn=lbdmhpkmonokeldelekgfefldfboblbj&utmcs=UTF-8&utmsr=1366x768&utmsc=24-bit&utmul=ru-ru&utmje=0&utmfl=-&utmhid=1304339971&utmr=-&utmp=%2F_generated_background_page.html&utmht=1602538593798&utmac=UA-71144624-3&utmcc=__utma%3D232062018.1965132132.1598647159.1602527945.1602538594.13%3B%2B__utmz%3D232062018.1598647159.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=543840937&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAgAAE~
+[ProtocolInfo]
+ProtocolId=QTWeb
