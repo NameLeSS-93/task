@@ -1,4 +1,4 @@
-# 1 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_edited\\\\combined_task_edited.c"
+# 1 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_lr\\task\\\\combined_task_edited.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -964,7 +964,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_edited\\\\combined_task_edited.c" 2
+# 1 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_lr\\task\\\\combined_task_edited.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1130,7 +1130,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_edited\\\\combined_task_edited.c" 2
+# 2 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_lr\\task\\\\combined_task_edited.c" 2
 
 # 1 "globals.h" 1
 
@@ -2708,25 +2708,26 @@ void	 swab(const char *, char *, size_t);
  
 
 
-# 3 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_edited\\\\combined_task_edited.c" 2
+# 3 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_lr\\task\\\\combined_task_edited.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_edited\\\\combined_task_edited.c" 2
+# 4 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_lr\\task\\\\combined_task_edited.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
 	int temp;
+	int radio_init_flag = 1;
 	int len = 0;
 	int radio_iter = 0;
 	int p;
 	int diff;
 	int max_val = 0;
-	char temp_arr[50];
+	char temp_arr[100];
 	int l;
 	int k;
 	int flag_radio = 1;
@@ -2753,7 +2754,7 @@ Action()
 	char var_1[1000];
 	
 	char *start_ptr;
-	
+	char finish_test[50];
 	int I = 1;
 	
 	web_set_max_html_param_len("3000");
@@ -2781,10 +2782,9 @@ Action()
 		"Search=Body",
 		"LAST");
 	
-	while (I < 10){
 
 	memset(res_data, 0, sizeof(res_data));
-	lr_save_int(I, "q_num");
+
 
 	web_url("test.youplace.net", 
 		"URL=http://test.youplace.net/question/{q_num}", 
@@ -2794,11 +2794,13 @@ Action()
 		"Snapshot=t1.inf", 
 		"Mode=HTML", 
 		"LAST");
+
+
 	
 	do {
 		
 		sprintf(var_1, "{parags_%d}", arr_iter);
-		
+		 
 		 if (strstr(lr_eval_string(var_1),"radio"))
          {
 		 	lr_output_message("THERES A RADIO");
@@ -2806,17 +2808,17 @@ Action()
 		 	
 		 	max_val = 0;
 		 	start_ptr = lr_eval_string(var_1);
-		 	
+		 	diff = 0;
 		 	i = 0;
 		 	j = 0;
 		 	while (1)
 		 	{
-		 		if (*(start_ptr - 2) != 'p' && *start_ptr == '=' && *(start_ptr + 1) == '"'){
+		 		if ((*(start_ptr - 4) != 't' || *(start_ptr - 3) != 'y' || *(start_ptr - 2) != 'p') && *start_ptr == '=' && *(start_ptr + 1) == '"'){
 		 			radio_ptr_arr[j] = i + 2;
 		 			++j;
 		 		}
 		 		
-		 		if (*(start_ptr - 1) != 'o' && *start_ptr == '"' && (*(start_ptr + 1) == '>' || *(start_ptr + 1) == ' ')){
+		 		if ((*(start_ptr - 2) != 'i' || *(start_ptr - 1) != 'o') && *start_ptr == '"' && (*(start_ptr + 1) == '>' || *(start_ptr + 1) == ' ')){
 		 			radio_ptr_arr[j] = i - 1;
 		 			++j;
 		 		}
@@ -2833,14 +2835,15 @@ Action()
 		 	start_ptr = lr_eval_string(var_1);
 		 	i = 0;
 		 	while (i < 50){
+		 		radio_init_flag = 1;
 		 		if ( radio_ptr_arr[i] ){
 		 			k = radio_ptr_arr[i];
 		 			
 		 			l = 0;
 		 			
 		 			memset(temp_arr, 0, sizeof(temp_arr));
-		 			while( k <= radio_ptr_arr[i + 1]){
-		 				if(flag_radio){
+		 			while( k <= radio_ptr_arr[i + 1] ){
+		 				if( i != 0 && flag_radio ){
 		 					diff =  radio_ptr_arr[i + 1] - k;
 		 					flag_radio = 0;
 		 				}
@@ -2853,14 +2856,16 @@ Action()
 		 			if(i == 0){
 		 				p = 0;
 	 					while (temp_arr[p]){
- 						name_radio[p] = *(lr_eval_string(temp_arr) + p);
- 						++p;
+	 						name_radio[p] = *(temp_arr + p);
+	 						++p;
+	 						
 		 				}
+		 				i += 2;
+		 				radio_init_flag = 0;
 		 			}
-		 			
-		 			if (i != 0 && i % 4 == 2 && max_val < diff){
+		 			 
+		 			if (i != 0 && max_val < diff && radio_init_flag){
 	 					max_val = diff;
-	 					
 	 					p = 0;
 	 					memset(max_radio, 0, sizeof(max_radio));
 	 					while (temp_arr[p]){
@@ -2869,7 +2874,9 @@ Action()
 	 					}
 		 			}
 		 		}
-		 		i += 2;
+		 		if(radio_init_flag){
+		 			i += 4;
+		 		}
 		 	}
  		 
 		 
@@ -2885,12 +2892,11 @@ Action()
  	
 
         }
-		 
+		  
 		 if (strstr(lr_eval_string(var_1),"text"))
         {
 		 	lr_output_message("THERES A TEXT");
 		 	lr_output_message("THIS IS IT!! %s", lr_eval_string(var_1));
-		 	lr_output_message("PTR!! %s", lr_eval_string(var_1)+25);
 
 		 	
 		 	start_ptr = lr_eval_string(var_1) + 25;
@@ -2918,7 +2924,7 @@ Action()
 		 	 
 
         }
-		 
+		  
 		 if (strstr(lr_eval_string(var_1),"select"))
         {
 		 	lr_output_message("THERES A SELECT");
@@ -2928,7 +2934,9 @@ Action()
 		 	max_val = 0;
 		 	i = 0;
 		 	j = 0;
+		 	diff = 0;
 		 	memset(select_ptr_arr, 0, sizeof(select_ptr_arr));
+		 	 
 		 	while (1)
 		 	{
 		 		if (*start_ptr == '=' && *(start_ptr + 1) == '"'){
@@ -2951,6 +2959,7 @@ Action()
 		 	
 		 	start_ptr = lr_eval_string(var_1);
 		 	i = 0;
+		 	flag_select = 0;
 		 	while (i < 50){
 		 		if ( select_ptr_arr[i] ){
 		 			k = select_ptr_arr[i];
@@ -2958,13 +2967,12 @@ Action()
 		 			l = 0;
 
 		 			memset(temp_arr, 0, sizeof(temp_arr));
-		 			q = 0;
-		 			while( k <= select_ptr_arr[i + 1]){	 				
+ 
+		 			while( k <= select_ptr_arr[i + 1] ){
 		 				
-		 				if(i != 0 && i != 2 && flag_select){
+		 				if(i != 0 && flag_select){
 		 					diff =  select_ptr_arr[i + 1] - k;
 		 					flag_select = 0;
- 
 		 				}
 		 				
 		 				temp_arr[l] = *(start_ptr + k);
@@ -2973,29 +2981,27 @@ Action()
 		 				++k;
 
 		 			}
-		 			
 		 			flag_select = 1;
 		 			
 		 			if(i == 0){
 		 				p = 0;
+		 				memset(name_select, 0, sizeof(name_select));
 	 					while (temp_arr[p]){
 	 						name_select[p] = *(temp_arr + p);
 	 						++p;
 		 				}
 		 			}
-		 			
-		 			if (i != 0 && i % 4 == 2 && max_val < diff){
+		 			 
+		 			if (i != 0 && max_val < diff){
 		 				
 	 					max_val = diff;
 	 					
 	 					p = 0;
 	 					memset(max_select, 0, sizeof(max_select));
 	 					while (temp_arr[p]){
- 
 	 						max_select[p] = *(temp_arr + p);
 	 						++p;
 	 					}
- 
 		 			}
 		 		}
 		 		i += 2;
@@ -3026,27 +3032,37 @@ Action()
 	web_add_auto_header("Conncection", 
 		"keep-alive");
 
+	web_reg_save_param("finish_test",
+		"LB=<h1>",
+		"RB=</h1>",
+		"Search=Body",
+		"NotFound=WARNING",
+		"LAST");
+
 	web_custom_request("q",
 		"URL=http://test.youplace.net/question/{q_num}", 
 		"Method=POST",	
 		"RecContentType=text/html", 
-		"Referer=http://test.youplace.net/question/1", 
-		"Snapshot=t18.inf", 
+		"Referer=http://test.youplace.net/question/{q_num}", 
 		"Mode=HTML",
 		"Body={post_data}",		
 		"LAST"
 	);
+	
+	sprintf(finish_test, "{finish_test}");
 
-	++I;
+	if(strlen(finish_test) > 13){
+		lr_output_message("SCRIPT FINISHED!");
+		return 0;
 	}
 	return 0;
 }
-# 5 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_edited\\\\combined_task_edited.c" 2
+# 5 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_lr\\task\\\\combined_task_edited.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_edited\\\\combined_task_edited.c" 2
+# 6 "c:\\users\\nikit\\documents\\vugen\\scripts\\task_lr\\task\\\\combined_task_edited.c" 2
 

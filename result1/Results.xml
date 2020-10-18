@@ -129,13 +129,13 @@
 ]
 >
 <Report ver="2.0" tmZone="RTZ 2 (зима)">
-<General productName="Vugen" productVer="12" os="" host="NIKITA"><DocLocation><![CDATA[C:\Users\nikit\Documents\VuGen\Scripts\task_edited]]></DocLocation></General>
+<General productName="Vugen" productVer="12" os="" host="NIKITA"><DocLocation><![CDATA[C:\Users\nikit\Documents\VuGen\Scripts\task_lr\task]]></DocLocation></General>
 <Doc rID="T1"   productName= "Vugen"  >
 <DName><![CDATA[task_edited]]></DName>
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="15.10.2020 - 23:45:06" eTime="15.10.2020 - 23:45:06" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="18.10.2020 - 23:42:13" eTime="18.10.2020 - 23:42:13" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>3000</FONT></STRONG> characters</CENTER>]]></Details>
-<Time><![CDATA[15.10.2020 - 23:45:07]]></Time>
-<TimeTick>1602794707</TimeTick>
+<Time><![CDATA[18.10.2020 - 23:42:13]]></Time>
+<TimeTick>1603053733</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" >
 <Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
 </NodeArgs>
@@ -155,8 +155,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[15.10.2020 - 23:45:07]]></Time>
-<TimeTick>1602794707</TimeTick>
+<Time><![CDATA[18.10.2020 - 23:42:13]]></Time>
+<TimeTick>1603053733</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -164,8 +164,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[15.10.2020 - 23:45:07]]></Time>
-<TimeTick>1602794707</TimeTick>
+<Time><![CDATA[18.10.2020 - 23:42:13]]></Time>
+<TimeTick>1603053733</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="11" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
@@ -173,8 +173,8 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[15.10.2020 - 23:45:07]]></Time>
-<TimeTick>1602794707</TimeTick>
+<Time><![CDATA[18.10.2020 - 23:42:13]]></Time>
+<TimeTick>1603053733</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="12" status="Passed" >
 <Disp><![CDATA[Url: test.youplace.net]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -185,8 +185,8 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>parags</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<p></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</p></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=ALL</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[15.10.2020 - 23:45:07]]></Time>
-<TimeTick>1602794707</TimeTick>
+<Time><![CDATA[18.10.2020 - 23:42:13]]></Time>
+<TimeTick>1603053733</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="13" >
 <Disp><![CDATA[Service: Reg Save Param]]></Disp>
 </NodeArgs>
@@ -194,8 +194,8 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[15.10.2020 - 23:45:07]]></Time>
-<TimeTick>1602794707</TimeTick>
+<Time><![CDATA[18.10.2020 - 23:42:13]]></Time>
+<TimeTick>1603053733</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="14" status="Passed" >
 <Disp><![CDATA[Url: test.youplace.net]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -206,51 +206,765 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[15.10.2020 - 23:45:14]]></Time>
-<TimeTick>1602794714</TimeTick>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="15" >
 <Disp><![CDATA[Service: Add Auto Header]]></Disp>
 </NodeArgs>
 </Step>
 <Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>finish_test</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<h1></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</h1></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="16" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T13">
 <Obj plainTxt="False" ><![CDATA[Custom Request: q]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Step failed</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[15.10.2020 - 23:45:14]]></Time>
-<TimeTick>1602794714</TimeTick>
-<NodeArgs eType="General" icon="8" nRep="16" status="Failed" >
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="17" status="Passed" >
 <Disp><![CDATA[Custom Request: q]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t3.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T13">
-<Obj plainTxt="False" ><![CDATA[Script Aborted!]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Failed</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[15.10.2020 - 23:45:14]]></Time>
-<TimeTick>1602794714</TimeTick>
-<NodeArgs eType="General" icon="1" nRep="17" status="Failed" >
-<Disp><![CDATA[Script Aborted!]]></Disp>
-</NodeArgs>
-</Step>
-<Summary sTime="15.10.2020 - 23:45:06" eTime="15.10.2020 - 23:45:14" passed="2" failed="2" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="8" status="Failed" >
+<Summary sTime="18.10.2020 - 23:42:13" eTime="18.10.2020 - 23:42:14" passed="3" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
 </Action>
-<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Failed" >
+<NodeArgs eType="StartIteration" icon="3" nRep="7" status="Passed" >
 <Disp><![CDATA[task_edited Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T14">
+<DIter rID="T14" iterID="2" >
+<Action rID="T15">
+<AName><![CDATA[Action]]></AName>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>3000</FONT></STRONG> characters</CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="22" >
+<Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="23" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="24" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="25" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration2\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>parags</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<p></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</p></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=ALL</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="26" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="27" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration2\t2.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="28" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>finish_test</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<h1></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</h1></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="29" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[Custom Request: q]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="30" status="Passed" >
+<Disp><![CDATA[Custom Request: q]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration2\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="18.10.2020 - 23:42:14" eTime="18.10.2020 - 23:42:14" passed="3" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="21" status="Passed" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="20" status="Passed" >
+<Disp><![CDATA[task_edited Iteration 2 (Row 2)]]></Disp>
+</NodeArgs>
+</DIter>
+<DIter rID="T25" iterID="3" >
+<Action rID="T26">
+<AName><![CDATA[Action]]></AName>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>3000</FONT></STRONG> characters</CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="35" >
+<Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="36" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="37" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="38" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration3\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T31">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>parags</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<p></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</p></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=ALL</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="39" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T32">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:14]]></Time>
+<TimeTick>1603053734</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="40" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration3\t2.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="41" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T34">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>finish_test</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<h1></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</h1></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="42" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA[Custom Request: q]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="43" status="Passed" >
+<Disp><![CDATA[Custom Request: q]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration3\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="18.10.2020 - 23:42:14" eTime="18.10.2020 - 23:42:15" passed="3" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="34" status="Passed" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="33" status="Passed" >
+<Disp><![CDATA[task_edited Iteration 3 (Row 3)]]></Disp>
+</NodeArgs>
+</DIter>
+<DIter rID="T36" iterID="4" >
+<Action rID="T37">
+<AName><![CDATA[Action]]></AName>
+<Step rID="T38">
+<Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>3000</FONT></STRONG> characters</CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="48" >
+<Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T39">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="49" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T40">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="50" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T41">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="51" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration4\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T42">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>parags</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<p></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</p></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=ALL</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="52" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T43">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="53" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration4\t2.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T44">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="54" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T45">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>finish_test</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<h1></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</h1></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="55" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T46">
+<Obj plainTxt="False" ><![CDATA[Custom Request: q]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="56" status="Passed" >
+<Disp><![CDATA[Custom Request: q]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration4\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="18.10.2020 - 23:42:15" eTime="18.10.2020 - 23:42:15" passed="3" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="47" status="Passed" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="46" status="Passed" >
+<Disp><![CDATA[task_edited Iteration 4 (Row 4)]]></Disp>
+</NodeArgs>
+</DIter>
+<DIter rID="T47" iterID="5" >
+<Action rID="T48">
+<AName><![CDATA[Action]]></AName>
+<Step rID="T49">
+<Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>3000</FONT></STRONG> characters</CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="61" >
+<Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T50">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="62" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T51">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="63" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T52">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="64" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration5\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T53">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>parags</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<p></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</p></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=ALL</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:15]]></Time>
+<TimeTick>1603053735</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="65" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T54">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="66" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration5\t2.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T55">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="67" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T56">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>finish_test</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<h1></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</h1></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="68" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T57">
+<Obj plainTxt="False" ><![CDATA[Custom Request: q]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="69" status="Passed" >
+<Disp><![CDATA[Custom Request: q]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration5\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="18.10.2020 - 23:42:15" eTime="18.10.2020 - 23:42:16" passed="3" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="60" status="Passed" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="59" status="Passed" >
+<Disp><![CDATA[task_edited Iteration 5 (Row 5)]]></Disp>
+</NodeArgs>
+</DIter>
+<DIter rID="T58" iterID="6" >
+<Action rID="T59">
+<AName><![CDATA[Action]]></AName>
+<Step rID="T60">
+<Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>3000</FONT></STRONG> characters</CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="74" >
+<Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T61">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="75" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T62">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="76" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T63">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="77" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration6\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T64">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>parags</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<p></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</p></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=ALL</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="78" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T65">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="79" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration6\t2.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T66">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="80" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T67">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>finish_test</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<h1></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</h1></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="81" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T68">
+<Obj plainTxt="False" ><![CDATA[Custom Request: q]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="82" status="Passed" >
+<Disp><![CDATA[Custom Request: q]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration6\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="18.10.2020 - 23:42:16" eTime="18.10.2020 - 23:42:16" passed="3" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="73" status="Passed" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="72" status="Passed" >
+<Disp><![CDATA[task_edited Iteration 6 (Row 6)]]></Disp>
+</NodeArgs>
+</DIter>
+<DIter rID="T69" iterID="7" >
+<Action rID="T70">
+<AName><![CDATA[Action]]></AName>
+<Step rID="T71">
+<Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>3000</FONT></STRONG> characters</CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="87" >
+<Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T72">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="88" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T73">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="89" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T74">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="90" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration7\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T75">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>parags</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<p></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</p></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=ALL</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="91" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T76">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="92" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration7\t2.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T77">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="93" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T78">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>finish_test</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<h1></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</h1></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="94" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T79">
+<Obj plainTxt="False" ><![CDATA[Custom Request: q]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="95" status="Passed" >
+<Disp><![CDATA[Custom Request: q]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration7\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="18.10.2020 - 23:42:16" eTime="18.10.2020 - 23:42:16" passed="3" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="86" status="Passed" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="85" status="Passed" >
+<Disp><![CDATA[task_edited Iteration 7 (Row 7)]]></Disp>
+</NodeArgs>
+</DIter>
+<DIter rID="T80" iterID="8" >
+<Action rID="T81">
+<AName><![CDATA[Action]]></AName>
+<Step rID="T82">
+<Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>3000</FONT></STRONG> characters</CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="100" >
+<Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T83">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Upgrade-Insecure-Requests: 1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="101" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T84">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:16]]></Time>
+<TimeTick>1603053736</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="102" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T85">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:17]]></Time>
+<TimeTick>1603053737</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="103" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration8\t1.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T86">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>parags</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<p></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</p></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>Ord=ALL</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:17]]></Time>
+<TimeTick>1603053737</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="104" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T87">
+<Obj plainTxt="False" ><![CDATA[Url: test.youplace.net]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:17]]></Time>
+<TimeTick>1603053737</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="105" status="Passed" >
+<Disp><![CDATA[Url: test.youplace.net]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration8\t2.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T88">
+<Obj plainTxt="False" ><![CDATA[Service: Add Auto Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to all subsequent HTTP requests :<BR><STRONG><FONT COLOR=#00AF00>Conncection: keep-alive</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:17]]></Time>
+<TimeTick>1603053737</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="106" >
+<Disp><![CDATA[Service: Add Auto Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T89">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>finish_test</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=<h1></FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB=</h1></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:17]]></Time>
+<TimeTick>1603053737</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="107" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T90">
+<Obj plainTxt="False" ><![CDATA[Custom Request: q]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[18.10.2020 - 23:42:17]]></Time>
+<TimeTick>1603053737</TimeTick>
+<NodeArgs eType="General" icon="8" nRep="108" status="Passed" >
+<Disp><![CDATA[Custom Request: q]]></Disp>
+<BtmPane vType="HTMLSNSH" >
+<Path><![CDATA[\Iteration8\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="18.10.2020 - 23:42:16" eTime="18.10.2020 - 23:42:17" passed="3" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="99" status="Passed" >
+<Disp><![CDATA[Action Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="3" nRep="98" status="Passed" >
+<Disp><![CDATA[task_edited Iteration 8 (Row 8)]]></Disp>
+</NodeArgs>
+</DIter>
+<Action rID="T91">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="15.10.2020 - 23:45:14" eTime="15.10.2020 - 23:45:14" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="20" >
+<Summary sTime="18.10.2020 - 23:42:17" eTime="18.10.2020 - 23:42:17" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="111" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="15.10.2020 - 23:45:06" eTime="15.10.2020 - 23:45:14" passed="2" failed="2" warnings="0" ></Summary>
-<NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
+<Summary sTime="18.10.2020 - 23:42:13" eTime="18.10.2020 - 23:42:17" passed="24" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test task_edited Summary]]></Disp>
 </NodeArgs>
 </Doc>

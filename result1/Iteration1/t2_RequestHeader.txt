@@ -4,9 +4,9 @@ Upgrade-Insecure-Requests: 1
 Conncection: keep-alive
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36
 Accept-Encoding: gzip, deflate
-Accept-Language: ru
+Accept-Language: en-us
 Accept: */*
 Connection: Keep-Alive
 Host: test.youplace.net
-Cookie: SID=wk5L2I8sQJmI2uiSiX9XMwtkQdTC84ZW
+Cookie: SID=3fwmBF2elJxARCPq8JskmEaAJHHZzhsv
 

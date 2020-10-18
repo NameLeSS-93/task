@@ -1,0 +1,26 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP22",
+                "stepName": "Url: test.youplace.net",
+                "infFile": "t1.inf",
+                "time": 1603053737063
+            },
+            {
+                "stepId": "STEP23",
+                "stepName": "Url: test.youplace.net",
+                "infFile": "t2.inf",
+                "time": 1603053737127
+            },
+            {
+                "stepId": "STEP24",
+                "stepName": "Custom Request: q",
+                "infFile": "t3.inf",
+                "time": 1603053737294
+            }
+        ],
+        "transactions": []
+    }
+]

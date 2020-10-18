@@ -1,6 +1,6 @@
 HTTP/1.1 200 OK
-Set-Cookie: SID=wk5L2I8sQJmI2uiSiX9XMwtkQdTC84ZW; Max-Age=3600; HttpOnly; SameSite=Strict
-Date: Thu, 15 Oct 2020 20:45:07 GMT
+Set-Cookie: SID=3fwmBF2elJxARCPq8JskmEaAJHHZzhsv; Max-Age=3600; HttpOnly; SameSite=Strict
+Date: Sun, 18 Oct 2020 20:42:13 GMT
 Content-Length: 1375
 Content-Type: text/html; charset=utf-8
 

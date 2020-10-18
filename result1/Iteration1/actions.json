@@ -6,19 +6,19 @@
                 "stepId": "STEP1",
                 "stepName": "Url: test.youplace.net",
                 "infFile": "t1.inf",
-                "time": 1602794707271
+                "time": 1603053733950
             },
             {
                 "stepId": "STEP2",
                 "stepName": "Url: test.youplace.net",
                 "infFile": "t2.inf",
-                "time": 1602794707352
+                "time": 1603053733987
             },
             {
                 "stepId": "STEP3",
                 "stepName": "Custom Request: q",
                 "infFile": "t3.inf",
-                "time": 1602794714306
+                "time": 1603053734364
             }
         ],
         "transactions": []
