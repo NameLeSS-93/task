@@ -170,7 +170,7 @@ Action()
 		lr_output_message(lr_eval_string(max_radio));
 		/////////////////
  	
-
+		//new comment
         }
 		 //process text field
 		 if (strstr(lr_eval_string(var_1),"text"))
